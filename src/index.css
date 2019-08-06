@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
+  font-family: "Open Sans", serif;
+  padding-top: 5%;
+}
+
+
+@media only screen and (max-width: 500px) {
+  body {
+      padding-top: 17%;
+  }
+}
+
+/* iPad css */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    padding-top: 17%;
+}
+}

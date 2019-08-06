@@ -1,0 +1,25 @@
+.rcorner {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+}
+
+.skill-title {
+  padding-left: 15%;
+}
+
+/* Chrome, Safari, AND NOW ALSO the Edge Browser and Firefox */
+
+@media print and (-webkit-min-device-pixel-ratio: 0) {
+  .skill-title {
+    padding-left: 7%;
+  }
+}
+
+/* Chrome 29+ */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .skill-title {
+    padding-left: 7%;
+  }
+}

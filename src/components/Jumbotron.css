@@ -1,0 +1,12 @@
+.jumbotron {
+  background-image: url(../images/work.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+
+.display-3 {
+  font-size: 2.5rem;
+  padding-bottom: 17%;
+}

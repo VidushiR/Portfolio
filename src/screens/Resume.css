@@ -1,0 +1,94 @@
+.bg-primary {
+    background-color: #C5C5C5 !important;
+}
+
+.text-primary {
+    width: 30%;
+    float: right;
+    color: #bd5d38 !important;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 0 !important;
+}
+
+.subheading.mb-5.about {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Saira Extra Condensed", serif;
+    font-size: 1.00rem;
+    border-bottom: 2px solid green;
+    text-align: center;
+}
+
+.mb-0.name {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.card-block,
+.resume-item.d-flex.flex-column.flex-md-row {
+    padding: 2%;
+}
+
+.my-auto,
+.resume-content.mr-auto {
+    width: 100%;
+}
+
+.text-primary.year {
+    width: 48%;
+}
+
+.subheading.mb-3 {
+    width: 50%;
+    display: inline-block;
+}
+
+#skills,
+#education,
+#experience {
+    padding-bottom: 0 !important;
+}
+
+#education .resume-item.d-flex.flex-column.flex-md-row.mb-5,
+#education .resume-item.d-flex.flex-column.flex-md-row {
+    padding-bottom: 0;
+}
+
+#resume-body h3,
+h1,
+h2,
+h4,
+h5,
+h6 {
+    margin-top: 0% !important;
+}
+
+section.resume-section {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.bg-primary {
+    background-color: #C5C5C5 !important;
+}
+
+a {
+    color: #bd5d38;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #824027;
+}
+
+@media (min-width: 768px) {
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+    .text-primary.year {
+        width: 30%;
+    }
+}

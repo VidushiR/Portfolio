@@ -1,0 +1,68 @@
+img.mail-img-top {
+  height: 30px;
+  width: 30px;
+}
+
+.linkedIn-img-top {
+  width: 30px;
+  height: 30px;
+  padding-top: -143px;
+}
+
+.contact-social-icons {
+  background-color: orange;
+  position: relative;
+}
+
+.contact-social-icons .mail-contact {
+  float: left;
+  position: absolute;
+}
+
+.contact-social-icons .linkedin-contact {
+  float: left;
+  position: absolute;
+  padding-top: 4%;
+}
+
+.contact-page .social-text {
+  margin-left: 5%;
+  width: 45%;
+  height: auto;
+}
+
+span.mail-text {
+  margin-left: 7%;
+}
+
+.contact-two {
+  margin-top: 5%;
+}
+
+.contact-two.mail-text {
+  top: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-page .social-text {
+    margin-left: 20%;
+    width: 70%;
+    height: auto;
+  }
+  .linkedIn-img-top {
+    margin-top: 100%;
+}
+}
+
+/* iPad css */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .contact-page .social-text {
+    margin-left: 10%;
+    width: 70%;
+    height: auto;
+  }
+  .linkedIn-img-top {
+    margin-top: 100%;
+}
+}
